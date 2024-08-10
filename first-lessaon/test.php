@@ -32,15 +32,18 @@
 
 //  echo "huina<br>";
 
-// define("echo", "ajajajajaja");
-// define("HAHA", "hahahahah");
+// define("echo", "ajajajajaja"); //constant - константа
+//define("HAHA", "hahahahah");
+
 // echo constant("echo");
 // $haha = "123123123123"
-// var_dump("echo");
+//var_dump(HAHA);
 // var_dump(HAHA);
 
-// $var = 10;
-// $var2 = "10";
+//$var = 10;
+//$var2 = "10";
+
+//echo $var-$var2;
 
 // echo "$var2+$var<br>";
 
@@ -49,7 +52,7 @@
 
 // var_dump($var + intval($float));
 
-// echo gettype($var);
+//echo gettype($var);
 // echo gettype($float);
 // settype($float, "int");
 // echo gettype($float);
@@ -73,6 +76,7 @@ $arr = ['123','sda', 123, true]; //масик нумерованный
 $arr2 = array("name"=> "Katya", "age"=> 20,"height"=> 75.5, "is_male" => false); //масик ассоциативный
 $arr3 = ["name"=> "Katya", "age"=> 20,"height"=> 75.5, "is_male" => false]; //масик ассоциативный
 $arrFruits = ["name" => "Katya", "fruits" => ["apple", "banana", "orange"]];
+
 // var_dump($arr);
 // var_dump($arr2);
 // var_dump($arr3);
@@ -82,7 +86,9 @@ $arrFruits = ["name" => "Katya", "fruits" => ["apple", "banana", "orange"]];
 
 // echo count($arr2);
 
+// var_dump($arr);
 // array_push($arr, $arr2);
+// var_dump($arr);
 // array_unshift($arr, $arr2);
 // asort($arr);
 // arsort($arr);
@@ -99,5 +105,5 @@ $arrFruits = ["name" => "Katya", "fruits" => ["apple", "banana", "orange"]];
 // $user->name = "Katya";
 // var_dump($user);
 
-$file = fopen("test.txt","r");
-var_dump($file);
+// $file = fopen("test.txt","r");
+// var_dump($file);

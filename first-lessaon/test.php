@@ -72,9 +72,9 @@
 // var_dump(isset($null));
 
 // Array
-$arr = ['123','sda', 123, true]; //масик нумерованный
-$arr2 = array("name"=> "Katya", "age"=> 20,"height"=> 75.5, "is_male" => false); //масик ассоциативный
-$arr3 = ["name"=> "Katya", "age"=> 20,"height"=> 75.5, "is_male" => false]; //масик ассоциативный
+$arr = ['123', 'sda', 123, true]; //масик нумерованный
+$arr2 = array("name" => "Katya", "age" => 20, "height" => 75.5, "is_male" => false); //масик ассоциативный
+$arr3 = ["name" => "Katya", "age" => 20, "height" => 75.5, "is_male" => false]; //масик ассоциативный
 $arrFruits = ["name" => "Katya", "fruits" => ["apple", "banana", "orange"]];
 
 // var_dump($arr);
@@ -107,3 +107,29 @@ $arrFruits = ["name" => "Katya", "fruits" => ["apple", "banana", "orange"]];
 
 // $file = fopen("test.txt","r");
 // var_dump($file);
+
+
+// -- if, switch case, match  --
+
+// $a = 0;
+
+/**
+ * if (1 === "1"): ?>
+ * <h1>True</h1>
+ * <?php else: ?>
+ * <h1>False</h1>
+ * <?php endif ?>
+ * */
+
+// $a = 0;
+
+// $result = ($a) ? "True": "False";
+// echo $result;
+
+$a = 6;
+if (1==2) 
+    echo "true";
+else 
+    echo "false";
+
+    echo ($a) ? $a:"false";
